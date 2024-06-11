@@ -1,0 +1,63 @@
+/* Default css style */
+*,
+::after,
+::before,
+a,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 15px;
+}
+
+/* Header  */
+.headerTopContent {
+    text-align: center;
+}
+
+.headerTitle {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0px;
+    font-weight: normal;
+    opacity: .7;
+}
+
+.headerSubTitle {
+    font-size: 25px;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerMenu {
+    text-align: center;
+}
+
+.headerMenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.headerMenu ul li {
+
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.headerMenu ul li a {
+    color: #bdbaba;
+    padding: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.headerMenu ul li a:hover {
+    background-color: #ccc;
+    color: black;
+}
