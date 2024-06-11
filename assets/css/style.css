@@ -16,6 +16,11 @@ body {
     padding: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Header  */
 .headerTopContent {
     text-align: center;
@@ -33,6 +38,7 @@ body {
     font-size: 25px;
     margin: 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: .8;
 }
 
 .headerMenu {
@@ -58,6 +64,24 @@ body {
 }
 
 .headerMenu ul li a:hover {
-    background-color: #ccc;
-    color: black;
+    background-color: #e0e0e0;
+    color: #bcbaba;
+}
+
+/* PhotoGalary  */
+.photoGallrySetion {
+    margin-top: 60px;
+
+}
+
+.gridRightImges img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.gridLeftImges img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }

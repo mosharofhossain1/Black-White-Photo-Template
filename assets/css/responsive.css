@@ -1,0 +1,20 @@
+@media screen and (min-width : 600px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .gridRightImges img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .gridLeftImges img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
