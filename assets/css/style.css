@@ -13,7 +13,7 @@ li {
 
 body {
     background-color: white;
-    padding: 15px;
+
 }
 
 img {
@@ -71,7 +71,7 @@ img {
 /* PhotoGalary  */
 .photoGallrySetion {
     margin-top: 60px;
-
+    padding: 10px;
 }
 
 .gridRightImges img {
@@ -84,4 +84,25 @@ img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.socialIcons {
+    margin-top: 30px;
+}
+
+.socialIcons i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.developerQutes {
+    margin: 20px 0px;
+    font-size: 16px;
+    opacity: .7;
 }
